@@ -1,6 +1,5 @@
-
 from flask import Flask, render_template, request
-
+from jinja2 import Markup, escape
 #import model
 import json
 import base64
