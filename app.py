@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from jinja2 import Markup, escape
+#from jinja2 import Markup, escape
 #import model
 import json
 import base64
@@ -26,5 +26,5 @@ def buscar():
 
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0',port=PORT_NUMBER,debug = True)
+	app.run(host='0.0.0.0',port=5000,debug = True)
 
