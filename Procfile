@@ -1,1 +1,1 @@
-web:node src/app.py
+web:python app.py
